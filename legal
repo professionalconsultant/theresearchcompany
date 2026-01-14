@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Center | The Research Company</title>
+    <style>
+        :root {
+            --primary: #0f172a; 
+            --accent: #2563eb;  
+            --bg: #f1f5f9;
+            --card: #ffffff;
+            --text-main: #334155;
+            --text-bold: #0f172a;
+            --border: #e2e8f0;
+        }
+
+        * { box-sizing: border-box; }
+        body { 
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; 
+            line-height: 1.7; 
+            color: var(--text-main); 
+            background-color: var(--bg);
+            margin: 0;
+            scroll-behavior: smooth;
+        }
+
+        .nav-header {
+            background: var(--primary);
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .nav-header a {
+            color: #cbd5e1;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+        }
+
+        .nav-header a:hover { color: white; }
+
+        .content-wrapper {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .policy-card {
+            background: var(--card);
+            padding: 50px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            border: 1px solid var(--border);
+        }
+
+        h1 { font-size: 2.5rem; color: var(--text-bold); margin-bottom: 0.5rem; }
+        h2 { 
+            font-size: 1.8rem; 
+            color: var(--text-bold); 
+            border-bottom: 2px solid var(--bg);
+            padding-bottom: 10px;
+            margin-top: 2rem;
+        }
+        h3 { font-size: 1.2rem; color: var(--accent); margin-top: 1.5rem; }
+        
+        .last-updated { color: #64748b; font-style: italic; margin-bottom: 2rem; }
+
+        .alert-box {
+            background: #fef2f2;
+            border-left: 4px solid #ef4444;
+            padding: 15px;
+            margin: 20px 0;
+            color: #991b1b;
+            font-weight: 500;
+        }
+
+        .jurisdiction-box {
+            background: #f8fafc;
+            border: 1px solid var(--border);
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            .policy-card { padding: 25px; }
+            .nav-header a { display: block; margin: 10px 0; }
+        }
+    </style>
+</head>
+<body>
+
+<header class="nav-header">
+    <strong>THE RESEARCH COMPANY</strong>
+    <nav style="margin-top: 10px;">
+        <a href="#refund">Refund Policy</a>
+        <a href="#privacy">Privacy Policy</a>
+        <a href="#terms">Terms & Conditions</a>
+    </nav>
+</header>
+
+<div class="content-wrapper">
+
+    <section id="refund" class="policy-card">
+        <h1>Refund & Settlement Policy</h1>
+        <p class="last-updated">Last Updated: January 15, 2026</p>
+        
+        <div class="alert-box">
+            Strict Policy: All IT services, research reports, and technical consulting are non-refundable.
+        </div>
+
+        <h3>1.1 Service-Based Finality</h3>
+        <p>The Research Company provides specialized IT services and research analysis. You acknowledge that these services consist of non-tangible labor and professional expertise. Consequently, all payments are final and non-refundable once work has commenced.</p>
+
+        <h3>1.2 Project Milestones</h3>
+        <p>For project-based work, payments are tied to specific milestones. Upon delivery of a milestone, the client has five (5) business days to review. If no written objection is received via <strong>support@theresearchcompany.dpdns.org</strong>, the work is deemed accepted and the associated fee is non-refundable.</p>
+    </section>
+
+    <section id="privacy" class="policy-card">
+        <h2>Privacy & Data Protection</h2>
+        
+        <h3>2.1 Information Access</h3>
+        <p>To perform IT services, we may require administrative access to networks and systems. Identification and Technical Data is collected strictly for the performance of our contractual duties.</p>
+
+        <h3>2.2 Confidentiality</h3>
+        <p>The Research Company maintains strict non-disclosure protocols. We do not sell or share client data with third-party entities except as required to fulfill the IT services requested (e.g., cloud provider provisioning).</p>
+    </section>
+
+    <section id="terms" class="policy-card">
+        <h2>Terms and Conditions of Service</h2>
+
+        <h3>3.1 Limitation of Liability</h3>
+        <p>The Research Company is not liable for data loss, hardware failure, or system downtime. While we follow industry best practices, the client is responsible for maintaining independent backups.</p>
+
+        <h3>3.2 Intellectual Property</h3>
+        <p>All proprietary research methodologies and custom scripts remain the property of The Research Company. The client is granted a license for internal use upon successful settlement of all invoices.</p>
+
+        <div class="jurisdiction-box">
+            <h3>3.3 Governing Law</h3>
+            <p>These Terms and any disputes arising out of or related to these Terms will be governed under the law of Jurisdiction at the <strong>Court of Arbitration of New Delhi</strong>, without regard to its conflict of law principles.</p>
+
+            <h3>3.4 Dispute Resolution</h3>
+            <p>In the event of a dispute, we encourage you to first contact our customer service team at <strong>support@theresearchcompany.dpdns.org</strong> to resolve the issue. If a resolution cannot be reached, any legal action or proceeding related to these Terms shall be brought exclusively in the courts located in <strong>Jurisdiction of New Delhi</strong>.</p>
+            <p>The arbitration shall take place at <strong>New Delhi</strong> according to the rules and proceedings of the <strong>"Court of Arbitration" of New Delhi</strong>.</p>
+        </div>
+
+        <h3>3.5 Contact Information</h3>
+        <p>For all inquiries, please reach out via:<br>
+        <strong>Email:</strong> support@theresearchcompany.dpdns.org<br>
+        <strong>Website:</strong> https://theresearchcompany.dpdns.org/</p>
+    </section>
+
+    <footer>
+        &copy; 2026 The Research Company. Professional IT & Research Services.
+    </footer>
+</div>
+
+</body>
+</html>

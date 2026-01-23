@@ -3041,3 +3041,15 @@ section,
   height: 16px;
   vertical-align: middle;
 }
+
+/*----
+# Pricing line
+--*/
+
+.pricing-note {
+  text-align: center;
+  font-size: 14px;
+  color: #6b7280; /* soft gray */
+  margin: 40px 0 60px;
+  letter-spacing: 0.3px;
+}
